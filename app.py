@@ -56,7 +56,7 @@ model.fit(X, y, epochs=100, verbose=0)
 # -------------------------------
 # Streamlit UI
 # -------------------------------
-st.title("🧠 RNN Next Word Prediction App")
+st.title("🧠 NLP Next Word Prediction App")
 st.write("Enter a sentence and predict the **next word**")
 
 user_input = st.text_input("Enter text")
